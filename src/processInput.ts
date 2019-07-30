@@ -1,3 +1,5 @@
+import { SPLIT_SEPARATOR } from './constant';
+
 export const processRawInput = (raw: any): string => {
   let rawStr;
   if (Array.isArray(raw)) {
@@ -12,4 +14,8 @@ export const processRawInput = (raw: any): string => {
     rawStr = 'to be random';
   }
   return rawStr;
+};
+
+export const processWords = (rawStr: string): string[] => {
+  return rawStr.replace(/\s+/g, ' ').split(SPLIT_SEPARATOR);
 };
