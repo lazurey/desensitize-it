@@ -2,16 +2,28 @@
   "name": "desensitize-it",
   "version": "1.0.0",
   "description": "Help desensitise a string to a stable, non-sense string.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "lint": "tslint src/*.ts",
+    "lint:fix": "tslint src/*.ts --fix",
+    "test": "jest"
   },
+  "prepublish": "tsc",
   "keywords": [
     "desensitise",
     "data",
     "process",
     "desensitize"
   ],
+  "types": "lib/index.d.ts",
   "author": "lazureys",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  }
 }
