@@ -1,6 +1,7 @@
 # Desensitize it
 
 [![Build Status](https://travis-ci.org/lazurey/desensitize-it.svg?branch=master)](https://travis-ci.org/lazurey/desensitize-it)
+[![npm version](https://badge.fury.io/js/desensitize-it.svg)](https://badge.fury.io/js/desensitize-it)
 
 Help desensitize strings to a repeatable but un-readable string.
 
