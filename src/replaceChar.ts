@@ -31,6 +31,6 @@ export const replaceChinese = (idx: number, hash: number, bank: string[] = zhArr
 };
 
 export const replaceSymbol = (idx: number, hash: number, bank: string = symbols): string => {
-  const { row} = getCoords(idx, hash, symbols.length, symbols.length);
-  return symbols[row];
+  const { row } = getCoords(idx, hash, symbols.length, symbols.length);
+  return bank[row];
 };
