@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "Help desensitise a string to a stable, non-sense string.",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lazurey/desensitize-it.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lazurey/desensitize-it/issues"
+  },
+  "homepage": "https://github.com/lazurey/desensitize-it#readme",
   "scripts": {
     "build": "tsc",
     "lint": "tslint src/*.ts",
