@@ -1,0 +1,17 @@
+{
+  "name": "desensitize-it",
+  "version": "1.0.0",
+  "description": "Help desensitise a string to a stable, non-sense string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "desensitise",
+    "data",
+    "process",
+    "desensitize"
+  ],
+  "author": "lazureys",
+  "license": "MIT"
+}
