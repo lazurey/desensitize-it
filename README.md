@@ -1,5 +1,7 @@
 # Desensitize it
 
+[![Build Status](https://travis-ci.org/lazurey/desensitize-it.svg?branch=master)](https://travis-ci.org/lazurey/desensitize-it)
+
 Help desensitize strings to a repeatable but un-readable string.
 
 Better used for **non-confidential** case.
