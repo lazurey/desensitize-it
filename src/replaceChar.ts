@@ -21,7 +21,8 @@ export const replaceNumber = (idx: number, hash: number, bank: string[] = number
 
 export const replaceLatin = (idx: number, hash: number, bank: string[] = latinArr): string => {
   const { row, col } = getCoords(idx, hash, bank.length, bank[0].length);
-  return bank[row][col];
+  const toBeReplacedChar = bank[row][col];
+  return idx === 0 ? toBeReplacedChar.toUpperCase() : toBeReplacedChar;
 };
 
 export const replaceChinese = (idx: number, hash: number, bank: string[] = zhArr): string => {
