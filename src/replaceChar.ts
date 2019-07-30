@@ -1,6 +1,6 @@
-import latinArr from '../resources/latin.json';
-import numberArr from '../resources/number.json';
-import zhArr from '../resources/zh-cn.json';
+import latinArr from './resources/latin.json';
+import numberArr from './resources/number.json';
+import zhArr from './resources/zh-cn.json';
 
 const symbols = '-/+*:|-,.-';
 
