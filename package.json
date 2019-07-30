@@ -1,6 +1,6 @@
 {
   "name": "desensitize-it",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Help desensitise a string to a stable, non-sense string.",
   "main": "lib/index.js",
   "repository": {
